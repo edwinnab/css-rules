@@ -1,0 +1,27 @@
+#introduction {
+    text-align: center;
+}
+section a {
+    text-decoration: none;
+    color: black;
+    margin-top: 2rem;
+}
+section a:hover {
+    color: rgb(0, 64, 255);
+}
+p {
+    display: block;
+    text-align: justify;
+}
+section ul>li {
+    margin-left: 5rem;
+}
+section ul>li::marker {
+    color: orange;
+}
+section ol>li {
+    list-style-type: disc;
+}
+h3 {
+   color: orange;
+}
